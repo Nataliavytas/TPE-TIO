@@ -1,0 +1,79 @@
+
+/* General */
+html{
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+     background:rgb(255, 255, 255);
+     border-bottom: solid rgb(90, 30, 33) 2px;
+     margin: auto 5%;
+    }
+.nav-link, .navbar-brand{ 
+    color: #0000008e; 
+    cursor: pointer;
+}
+.navbar-brand{
+    padding-left: 2%;
+    
+}
+#marcaMinimalismo{
+    font-size: 30px;
+}
+.nav-link{
+     margin-right: 1em;
+     font-size: 20px;
+    }
+.nav-link:hover{
+     background: #f4f4f4; color: rgba(100, 138, 48, 0.753); 
+    }
+.navbar-collapse{
+     justify-content: flex-end;
+    }
+#navResponsive{ 
+     background:rgba(0, 0, 0, 0.26);
+    }
+/* Pagina de Inicio */
+@media only screen and (min-width: 600px){
+#textoinicio{
+    margin-top: 100px;
+    padding-right: 25%;
+    padding-left: 25%;
+}
+
+#textoinicio p {
+    text-align: justify;
+    font-size: 18px;
+
+}
+#textoinicio h2{
+    size: 30px;
+    color: rgba(0, 0, 0 , 0.623); 
+    text-align: center;
+    padding-bottom: 20px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+    #textoinicio{
+        margin-top: 20%;
+        padding-right: 10%;
+        padding-left: 10%;
+        text-align: justify;
+        font-size: 15px;
+    }
+    #textoinicio h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .navbar-brand{
+        padding-left: 2%;
+    }
+    #marcaMinimalismo{
+        font-size: 22px;
+    }
+    .nav-link{
+        font-size: 16px;
+    }
+}
+
