@@ -102,3 +102,48 @@ html{
         margin: 8% 5% auto;
     }
 }
+  /* Viajes */
+    
+  #estiloLista{
+    background-color: #49846256;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.678);
+}
+@media only screen and (min-width: 600px){
+#estiloLista h2{
+   padding-top: 2%;
+   text-align: center;
+}
+#estiloLista ul{
+   font-size: 18px;
+   text-align: justify;
+   padding: 5%;
+}
+#contentViajes{
+   margin: 8% 3%;
+}
+}
+
+@media only screen and (max-width: 600px){
+#estiloLista h2{
+   text-align: center;
+   font-size: 18px;
+   margin: 5% auto;
+}
+#contentViajes{
+   margin: 20% 5% auto;
+   font-size: 15px;
+   text-align: justify;
+}
+#estiloLista{
+   margin-top: 5%;
+}
+#estiloLista ul{
+   padding-right: 3%;
+   padding-left: 2%;
+}
+
+}
+
+
+
