@@ -76,4 +76,29 @@ html{
         font-size: 16px;
     }
 }
+/*Contactos*/ 
+@media only screen and (max-width: 600px){
+    #estiloFormulario {
+        margin: 5% 10% auto;
+        background-color: #4984623d;
+    }
+    form{
+        padding: 5%;
+    }
+    #encabezadoFormulario{
+        margin: 25% 10% auto;
+    }
+}
+@media only screen and (min-width: 600px){
+    #estiloFormulario {
+        margin: 1% 25% auto;
+        background-color: #49846225;
+    }
+    form{
+        padding: 5%;
 
+    }
+    #encabezadoFormulario{
+        margin: 8% 5% auto;
+    }
+}
