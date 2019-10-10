@@ -144,6 +144,19 @@ html{
 }
 
 }
+@media only screen and (min-width: 600px){
+    .jumbotron{
+        margin: 3% 5%;
+    }
+    .imagenTestimonios{
+        margin: 5% 10%;
+        align-content: center;
+        
+    }
+    img{
+        height:300px;
+    }
+}
 
 
 
