@@ -142,7 +142,36 @@ html{
    padding-right: 3%;
    padding-left: 2%;
 }
+    /* Informacion */
 
+@media only screen and (max-width: 600px){
+    table{
+        margin: 20% 2% auto;
+    }
+    #formatoInput{
+        margin: 25% 5%;
+    }
+}
+
+@media only screen and (min-width: 600px){
+   #formatoTabla{
+    margin: 10% 5%;
+
+   } 
+}
+}
+@media only screen and (min-width: 600px){
+    .jumbotron{
+        margin: 3% 5%;
+    }
+    .imagenTestimonios{
+        margin: 5% 10%;
+        align-content: center;
+        
+    }
+    img{
+        height:300px;
+    }
 }
 
 
