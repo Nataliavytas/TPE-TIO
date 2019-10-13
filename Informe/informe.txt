@@ -1,0 +1,4 @@
+Informe TPE tio
+
+Para realizar el Trabajo Practico Especial utilizaremos el TPE de la materia Web 1. Las extensiones que contiene son html, js, jpeg, css y txt. 
+
