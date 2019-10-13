@@ -1,96 +1,71 @@
 <!DOCTYPE html>
 <html>
-    <head>
-         <meta charset="UTF-8">
-        <title> Minimalismo </title>
-        <link rel="stylesheet" href="css/estilos.css">
-    </head>
-    <body id="bodyInicio">
-       
-        <nav class="navbar navbar-expand-lg fixed-top ">
-        <a class="navbar-brand" href="inicio.html" id="marcaMinimalismo"> MINIMALISMO </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
-            id="navResponsive">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav mr-4">
-                <li class="nav-item">
-                    <a class="nav-link " data-value="blog" href="informacion.html">Informacion </a> </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-value="about" href="viajes.html"> Viajes </a> </li>
-                <li class="nav-item">
-                    <a class="nav-link " data-value="contact" href="contacto.html"> Contacto </a> </li>
-                    <li class="nav-item">
-                      <a class="nav-link " data-value="contact" href="testimonios.html"> Testimonios </a>
-                  </li>
-            </ul>
-        </div>
-    </nav>
-        <div class="tituloTabla">
-            <h1>Libros y peliculas para emprender tu camino</h1>
-        </div>
-        <table>
-                <thead>
-                  <tr>
-                    <th>Nombre </th>
-                    <th>Autor</th>
-                    <th>Tipo</th>
-                  </tr>
-                </thead>
-           <tbody>
-                  <tr>
-                    <td>The Life-Changing Magic of Tidying It Up</td>
-                    <td>Marie Kondo</td>
-                    <td>Libro </td>
-                  </tr>
-                  <tr>
-                    <td>Joy of Less</td>
-                    <td>Francine Jay</td>
-                    <td>Libro</td>
-                  </tr>
-                  <tr>
-                     <td>The Year of Less</td>
-                     <td>Cait Flanders</td>
-                     <td>Libro</td>
-                  </tr>
-                  <tr>
-                      <td>El libro de las pequeñas revoluciones</td>
-                      <td> Elsa Punset</td>
-                      <td>Libro</td>
-                   </tr>
-                   <tr>
-                      <td>Minimalism</td>
-                      <td>-</td>
-                      <td>Documental</td>
-                   </tr>
-                   <tr>
-                      <td>The true cost</td>
-                      <td>-</td>
-                      <td>Documental</td>
-                   </tr>
-                   <tr>
-                      <td>Happy</td>
-                      <td>-</td>
-                      <td>Documental</td>
-                   </tr>
-                   <tr>
-                      <td> Before Sunrise, Before Midnight, Before Sunset</td>
-                      <td>-</td>
-                      <td>Trilogia peliculas</td>
-                   </tr>
-                   <tr>
-                      <td> El arte de dejar ir </td>
-                      <td>Joshua Fields y Ryan Nicodemus</td>
-                      <td>Presentacion TEDX</td>
-                   </tr>
-                   <tr>
-                      <td> Una vida rica con menos cosas</td>
-                      <td>Joshua Fields y Ryan Nicodemus</td>
-                      <td>Presentacion TEDX</td>
-                   </tr>
-           </tbody>
-        </table>
-      </body>
-    </html>
+
+<head>
+  <meta charset="UTF-8">
+  <title> Minimalismo </title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body id="bodyInicio">
+
+  <nav class="navbar navbar-expand-lg fixed-top ">
+    <a class="navbar-brand" href="inicio.html" id="marcaMinimalismo"> MINIMALISMO </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="navResponsive">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav mr-4">
+        <li class="nav-item">
+          <a class="nav-link " data-value="blog" href="informacion.html">Informacion </a> </li>
+        <li class="nav-item">
+          <a class="nav-link" data-value="about" href="viajes.html"> Viajes </a> </li>
+        <li class="nav-item">
+          <a class="nav-link " data-value="contact" href="contacto.html"> Contacto </a> </li>
+        <li class="nav-item">
+          <a class="nav-link " data-value="contact" href="testimonios.html"> Testimonios </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div id="formatoTabla">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th scope="col"> Nombre </th>
+          <th scope="col"> Autor </th>
+          <th scope="col"> Tipo </th>
+        </tr>
+      </thead>
+      <tbody id="cuerpoTabla">
+
+      </tbody>
+    </table>
+  </div>
+  <form>
+    <div class="form-group">
+      <label> Nombre </label>
+      <input type="text" class="form-control" id="nombreTabla" aria-describedby="emailHelp" placeholder="Nombre">
+    </div>
+    <div class="form-group">
+      <label> Autor </label>
+      <input type="text" class="form-control" id="autorTabla" placeholder="Autor">
+    </div>
+    <div class="form-group">
+      <label> Tipo </label>
+      <input type="text" class="form-control" id="tipoTabla" placeholder="Tipo de informacion">
+    </div>
+    <button type="submit" class="btn btn-primary" id="agregarFila">Agregar</button>
+    <button type="submit" class="btn btn-primary" id="agregarTresFilas">Agregar 3</button>
+    <button type="submit" class="btn btn-primary" id="borrarTodoTabla"> Borrar todo</button>
+  </form>
+  <footer class="page-footer font-small cyan darken-3">
+    <div class="footer-copyright text-center py-3">© 2019 Copyright:
+      <a href="inicio.html"> Minimalismo.com</a>
+    </div>
+    <script type="text/javascript" src="js/cargarTabla.js"></script>
+    <script type="text/javascript" src="js/validarFormulario.js"></script>
+</body>
+
+</html>
