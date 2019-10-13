@@ -1,4 +1,27 @@
-Informe TPE tio
+Informe TPE tecnologia de la informacion de las organizaciones 
+Nombre de los integrantes: 
+LU de los integrantes
+Mails
 
-Para realizar el Trabajo Practico Especial utilizaremos el TPE de la materia Web 1. Las extensiones que contiene son html, js, jpeg, css y txt. 
+
+Para realizar el Trabajo Practico Especial utilizaremos el TPE de la materia Web 1. Las extensiones que contiene son html, js, jpg, css y txt. 
+Comenzamos inicializando los repositorios locales. Uno de nosotros hizo el primer commit y el primer push al repositorio remoto. El resto continuo clonando el de github. 
+[Imagen git init] 
+[Imagen git push]
+[Imagen git clone]
+
+Luego comenzamos a trabajar en los issues. Cada uno de nosotros tenia como tarea crea un archivo html con distintas caracteristicas. A su vez, modificando la hoja de estilos y la barra de navegacion. 
+
+Natalia fue la primera en hacer un push al repositorio remoto, y Mateo estaba trabajando de forma simultanea. Esto ocasiono que tuviese que hacer un pull antes de hacer un push.
+[imagen git pull] 
+[imagen git commit] x2
+[imagen git push] 
+
+
+
+
+
+
+
+
 
